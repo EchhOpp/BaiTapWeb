@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <meta name="author" content="Hege refsnes">
+    <title>Document</title>
+    <style>
+        #main{
+            height: 400px;
+            width: 600px;
+            box-shadow: 0 0 5px grey;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>Contact Us</h1>
+        <p>Use the following form to send a mesaasge to Example Cafe</p>
+        <form action="#">
+            <table>
+                <tr>
+                    <td><label for="input_email">Your email</label></td>
+                    <td><input type="email" name="email" id="input_email"></td>
+                </tr>
+                <tr>
+                    <td><label for="input_Message">Message</label></td>
+                    <td><textarea name="message" id="input_Message" cols="30" rows="10"></textarea></td>
+                </tr>
+            </table>
+            <div id="select">
+                <label for="input_select">How did you hear of us?</label>
+                <select name="select" id="input_select">
+                    <option value="">Google</option>
+                    <option value="">Google</option>
+                    <option value="">Google</option>
+                </select>
+            </div>
+            <div id="checkbox">
+                <label for="input_checkbox">Newsletter</label>
+                <input type="checkbox" id="input_checkbox"> Ensure this box is checked if uoi would like to receive email updates
+            </div>
+            <input type="submit" name="submiy" id="submit" value="Send submit">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <meta name="author" content="Hege refsnes">
+    <title>Document</title>
+    <style>
+        #table{
+            border: 6px solid #afbc7c ;
+            border-left-width: 12px;
+            border-right-width: 12px;
+            box-shadow: 0px 2px 6px 1px;
+            border-collapse: collapse;
+        }
+        .td {
+            text-align: center;
+            border: 2px solid #afbc7c;
+            font-size: 8px;
+            width: 25px;
+            height: 30px;
+        }
+
+        .color-org{
+            background-color: orange;
+        }
+        .color-yl{
+            background-color: yellow;
+        }
+        #Bai6_a{
+            display: block;
+        }
+
+
+        #Bai6_b{
+            margin-top: 24px;
+            display: inline-block;
+            background-color: #FFCC66;
+        }
+
+        #table_b{
+            border: 1px solid;
+        }
+
+        .td_b {
+            border: 1px solid;
+        }
+
+        #Table_c{
+            border: 3px solid #c004be;
+        }
+        #Table_c td{
+            border: 1px solid #c004be;
+            background-color: #f1c5f0;
+        }
+        #Table_c th{
+            border: 1px solid #c004be;
+            background-color: #f1a1f0;
+        }
+    </style>
+</head>
+<body>
+    <div id="Bai6_a">
+        <table id="table">
+            <tr>
+                <th class="td">1</th>
+                <th class="td" colspan="3">2</th>
+            <tr>
+                <td class="td" rowspan="3">3</td>
+                <td class="td color-org">4</td>
+                <td class="td color-org">5</td>
+                <td class="td" rowspan="2">6</td>
+            </tr>
+            <tr>
+                <td class="td color-org">7</td>
+                <td class="td color-org">8</td>
+            </tr>
+            <tr>
+                <td class="td color-yl" colspan="2">9</td>
+                <td class="td color-yl" >10</td>
+            </tr>
+        </table>
+    </div>
+    <div id="Bai6_b">
+        <table id="table_b">
+            <tr>
+                <th class="td_b">(1)</th>
+                <th class="td_b">(2)</th>
+                <th class="td_b">(3)</th>
+                <th class="td_b">(4)</th>
+                <th class="td_b">(5)</th>
+            </tr>
+            <tr>
+                <td class="td_b"></td>
+                <td class="td_b" colspan="3"><a href="">Part I</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="2"></td>
+                <td class="td_b" colspan="2"><a href="">Chapter 1</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="3"></td>
+                <td class="td_b"><a href="">Section A</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="3"></td>
+                <td class="td_b"><a href="">Section B</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="2"></td>
+                <td class="td_b" colspan="2"><a href="">Chapter 2</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="3"></td>
+                <td class="td_b"><a href="">Section A</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="3"></td>
+                <td class="td_b"><a href="">Section B</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" ></td>
+                <td class="td_b" colspan="3"><a href="">Part II</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b"  colspan="2"></td>
+                <td class="td_b"  colspan="2"><a href="">Chapter 3</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="3"></td>
+                <td class="td_b" ><a href="">Section A</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="3"></td>
+                <td class="td_b"><a href="">Section B</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="2"></td>
+                <td class="td_b" colspan="2"><a href="">Chapter 4</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="3"></td>
+                <td class="td_b"><a href="">Section A</a></td>
+                <td class="td_b"></td>
+            </tr>
+            <tr>
+                <td class="td_b" colspan="3"></td>
+                <td class="td_b"><a href="">Section B</a></td>
+                <td class="td_b"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="Bai6_c">
+        <caption id="m">NUMBERS 1-5 in VARIOUS LANGUAGE</caption>
+        <table id="Table_c">
+            <tr>
+                <th></th>
+                <th>English</th>
+                <th>Espanol</th>
+                <th>Francais</th>
+                <th>Italiano</th>
+                <th>Deutsch</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>one</td>
+                <td>uno</td>
+                <td>un</td>
+                <td>uno</td>
+                <td>eins</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>two</td>
+                <td>dos</td>
+                <td>deux</td>
+                <td>due</td>
+                <td>zwei</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>three</td>
+                <td>tres</td>
+                <td>trois</td>
+                <td>tre</td>
+                <td>drei</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>four</td>
+                <td>cuatro</td>
+                <td>quatre</td>
+                <td>quattro</td>
+                <td>vier</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>five</td>
+                <td>cinco</td>
+                <td>cinq</td>
+                <td>cinque</td>
+                <td>funf</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
