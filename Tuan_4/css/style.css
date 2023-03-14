@@ -1,0 +1,136 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Font text */
+html{
+    font-family: 'Tajawal', sans-serif;
+}
+/* Var */
+:root {
+    --primary-color:#e34d73;
+}
+
+/* code */
+#wapper {
+    max-width: 1440px;
+    margin:0 auto;
+    display: flex;
+}
+
+#left__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: 900px;
+    border-right: 1px solid #d6d6d4;
+}
+#left__nav-logo {
+    margin: 24px 0 19px 0;
+}
+
+#left__nav-subnav {
+    flex: 1;
+}
+#left__nav-subnav-gen {
+    list-style-type: none;
+    height: 100%;
+}
+
+.left__nav-subnav-gen--item{
+    margin: 15px 0;
+    padding: 12px 14px;
+}
+
+.left__nav-subnav-gen--item:hover {
+    background-color: #d4738b;
+    border-radius: 5px;
+}
+
+#left__nav-setting img {
+    display: block;
+    margin: auto;
+}
+
+ #center__container {
+    width: 920px;
+    padding: 42px 42px 0 42px;
+    border-right: 1px solid #d6d6d4 ;
+    display: flex;
+    flex-direction: column;
+ }
+
+ #center__container-header--title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #center__container-header--title--timelive {
+    color: #f22128;
+    height: 36px;
+    width: 90px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 34px;
+    border:2px solid #f22128;
+    border-radius: 24px;
+}
+
+#center__container-header--title--timelive p {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+#center__container-header--title h1 {
+    font-size: 20px;
+}
+
+#center__container-header--time {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 26px 0 35px 0;
+}
+#center__container-header--time-user {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 30px;
+    width: 85px;
+    margin-right: 18px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 16px;
+}
+
+#center__container-header--time-user i {
+    background-color: #fff;
+    padding: 3px 4px 4px 4px;
+    border-radius: 50%;
+    font-size: 8px;
+    color: #e34d73;
+}
+
+#center__container-header--time-calender {
+    color: #323842;
+    font-size: 14px;
+    padding-right: 16px;
+    border-right: 1px solid #e7e9ec;
+}
+
+#center__container-header--time-calender i {
+    padding-right: 8px;
+    color: #6e7787;
+}
+#center__container-header--time--hour {
+    color: #323842;
+    font-size: 14px;
+    padding-left: 16px;
+    border-left: 1px solid #e7e9ec;
+}
